@@ -99,11 +99,9 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 24px;
-  margin: 0 0 2em 0;
-  padding: 0;
-  text-transform: uppercase;
-  font-weight: bold;
+  font-size: 42px;
+    margin: 0 0 0.5em 0;
+    padding: 0;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav #fh5co-logo {
@@ -115,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #fff;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -136,13 +134,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 16px;
   padding: 30px 10px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: white;
+  color: black;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -201,7 +199,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-nav ul li.has-dropdown:hover a, .fh5co-nav ul li.has-dropdown:focus a {
-  color: #fff;
+  color: #000;
 }
 .fh5co-nav ul li.btn-cta a {
   color: #0C9CEE;
@@ -229,7 +227,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #fff !important;
+  color: #000 !important;
   position: relative;
 }
 .fh5co-nav ul li.active > a:before {
@@ -291,7 +289,6 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(42, 54, 59, 0.9);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -404,7 +401,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
   -o-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
-  color: #fff !important;
+  color: rgba(0, 0, 0, 0.8) !important;
 }
 .pagination > li.active > a:hover {
   cursor: pointer;
@@ -1186,7 +1183,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-started {
-  background: rgba(42, 54, 59, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
@@ -1320,7 +1317,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.5);
 }
 #fh5co-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 #fh5co-offcanvas ul {
   padding: 0;
@@ -1725,7 +1722,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 #home-slider {
-  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
+  background-color: white;
   position: relative;
 }
 
@@ -1748,7 +1745,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #home-slider .slider-house {
   position: absolute;
-  right: 0;
+  right: 50px;
   bottom: 0;
 }
 
@@ -1759,8 +1756,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #home-slider .slider-circle1 {
   position: absolute;
-  right: 430px;
-  bottom: 210px;
+  right: 400px;
+  bottom: 270px;
+  width: 15%;
 }
 
 .animate-in .slider-circle1 {
@@ -1770,8 +1768,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #home-slider .slider-circle2 {
   position: absolute;
-  right: 420px;
-  bottom: 245px;
+  right: -50px;
+  bottom: 370px;
+  width: 20%;
 }
 
 .animate-in .slider-circle2 {
@@ -1825,7 +1824,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #home-slider .slider-cycle {
   position: absolute;
-  right: 500px;
+  right: 550px;
   bottom: 0;
 }
 
@@ -1850,6 +1849,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #home-slider p{
   font-style: italic;
+  color: rgba(0, 0, 0, 0.7);
   text-shadow: 
   0 0 1.5px rgba(255, 255, 255, 0.5);  /* Minimal blur for brightness */
 }
@@ -1881,10 +1881,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 @media (max-width: 768px) {
-  #home-slider {
-      background: url(../images/home/slider-bg-mobile.png) 0 100% repeat-x; /* Change background image for mobile */
-  }
-
 
   #home-slider .slide-text {
       top: 90px; /* Adjust position for mobile */
@@ -1896,6 +1892,7 @@ h1, h2, h3, h4, h5, h6, figure {
       margin-top: 30px; /* Adjust margins for mobile */
       margin-bottom: 15px;
       font-size: 24px; /* Smaller font size for mobile */
+      text-align: center;
   }
 
   #home-slider p {
@@ -1904,8 +1901,8 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 
   #home-slider .slider-house {
-      right: 15px; /* Adjust position for mobile */
-      bottom: 75px;
+    right: 5px;
+    bottom: 5px;
   }
 
   #home-slider .slider-circle1 {
